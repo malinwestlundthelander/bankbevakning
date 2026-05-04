@@ -1,0 +1,68 @@
+name: Veckovis bankskanning
+
+on:
+  schedule:
+    # Varje måndag kl. 07:00 UTC (09:00 svensk sommartid)
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+    # Tillåter manuell körning från GitHub-gränssnittet
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checka ut kod
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sätt upp Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Installera beroenden
+        run: pip install -r scraper/requirements.txt
+
+      - name: Kör bankskrapa
+        env:
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          NOTIFY_FROM_EMAIL: ${{ secrets.NOTIFY_FROM_EMAIL }}
+          NOTIFY_TO_EMAIL: ${{ secrets.NOTIFY_TO_EMAIL }}
+          DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: python scraper/scrape.py
+
+      - name: Commita uppdaterad data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Bankbevakning Bot"
+          git add web/data/
+          git diff --staged --quiet || git commit -m "Skanning $(date -u +%Y-%m-%d): uppdaterad bankdata"
+          git push
+
+      - name: Konfigurera GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Ladda upp artefakt
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/
+
+      - name: Deploya till GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
