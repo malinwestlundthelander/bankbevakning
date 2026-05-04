@@ -1,54 +1,5 @@
 {
   "scan_date": "2026-05-04",
-  "changes_count": 8,
-  "changes": [
-    {
-      "bank_id": "handelsbanken",
-      "bank_name": "Handelsbanken",
-      "type": "new_bank",
-      "message": "Handelsbanken har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "seb",
-      "bank_name": "SEB",
-      "type": "new_bank",
-      "message": "SEB har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "nordea",
-      "bank_name": "Nordea",
-      "type": "new_bank",
-      "message": "Nordea har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "danske",
-      "bank_name": "Danske Bank",
-      "type": "new_bank",
-      "message": "Danske Bank har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "lansforsakringar",
-      "bank_name": "Länsförsäkringar",
-      "type": "new_bank",
-      "message": "Länsförsäkringar har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "lunar",
-      "bank_name": "Lunar",
-      "type": "new_bank",
-      "message": "Lunar har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "svea",
-      "bank_name": "Svea Bank",
-      "type": "new_bank",
-      "message": "Svea Bank har lagts till i bevakningen"
-    },
-    {
-      "bank_id": "swedbank",
-      "bank_name": "Swedbank",
-      "type": "new_bank",
-      "message": "Swedbank har lagts till i bevakningen"
-    }
-  ]
+  "changes_count": 0,
+  "changes": []
 }

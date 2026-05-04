@@ -1,6 +1,6 @@
 {
   "scan_date": "2026-05-04",
-  "scan_timestamp": "2026-05-04T14:09:16.571695+00:00",
+  "scan_timestamp": "2026-05-04T14:15:00.639408+00:00",
   "banks": {
     "handelsbanken": {
       "id": "handelsbanken",
@@ -74,7 +74,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571446+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639086+00:00",
       "checksum": "d70947205b542f6f820059b99e9089ea"
     },
     "seb": {
@@ -166,7 +166,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571512+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639176+00:00",
       "checksum": "22a35a31ad2ce6df2ccf1c5adc9a3ee9"
     },
     "nordea": {
@@ -253,7 +253,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571546+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639221+00:00",
       "checksum": "4ee90f20d8d4f9083bdd8c34e6742e74"
     },
     "danske": {
@@ -334,7 +334,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571573+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639257+00:00",
       "checksum": "2ce69321743b8b10c685328092b37c91"
     },
     "lansforsakringar": {
@@ -408,7 +408,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571600+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639287+00:00",
       "checksum": "f63e94551c998d3b00be4966c6899dba"
     },
     "lunar": {
@@ -501,7 +501,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571623+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639316+00:00",
       "checksum": "362492234de67fe4fd2fc4040180f9e7"
     },
     "svea": {
@@ -588,7 +588,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571652+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639349+00:00",
       "checksum": "9e72a1afee95b4c0d79fcbda50a7fb96"
     },
     "swedbank": {
@@ -662,7 +662,7 @@
           "dynamic": false
         }
       },
-      "scraped_at": "2026-05-04T14:09:16.571677+00:00",
+      "scraped_at": "2026-05-04T14:15:00.639385+00:00",
       "checksum": "671d04939ffe3fcfe94676b6eb5123ea"
     }
   }
