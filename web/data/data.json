@@ -1,0 +1,669 @@
+{
+  "scan_date": "2026-05-04",
+  "scan_timestamp": "2026-05-04T14:09:16.571695+00:00",
+  "banks": {
+    "handelsbanken": {
+      "id": "handelsbanken",
+      "name": "Handelsbanken",
+      "type": "Storbank",
+      "color": "#0C447C",
+      "bg": "#E6F1FB",
+      "urls": {
+        "foretagspaket": "https://www.handelsbanken.se/sv/foretag/kund-hos-oss/foretagspaketet",
+        "tjanster": "https://www.handelsbanken.se/sv/foretag/konton-betalningar/tjanster-som-forenklar/affarstjanster"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "160",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "0",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Nej",
+          "unit": "",
+          "dynamic": false
+        },
+        "bookkeeping_integration": {
+          "label": "Bokföringsintegration",
+          "value": "Ja – Fortnox, Visma, Hogia, Wint, 24SevenOffice",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "trade_finance": {
+          "label": "Trade Finance",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "sustainability_tool": {
+          "label": "Hållbarhetskollen",
+          "value": "Ja – via GoClimate, gratis upp till 5 000 verifikat/år",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja – lokalt kontor med beslutsmandat",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "handelsbanken.se/sv/foretag/kund-hos-oss/foretagspaketet",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571446+00:00",
+      "checksum": "d70947205b542f6f820059b99e9089ea"
+    },
+    "seb": {
+      "id": "seb",
+      "name": "SEB",
+      "type": "Storbank",
+      "color": "#27500A",
+      "bg": "#EAF3DE",
+      "urls": {
+        "foretagspaket": "https://seb.se/foretag/erbjudande-och-bli-foretagskund/vart-erbjudande-till-dig-som-foretagare"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "130 (6 mån gratis för nya)",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "2 500",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Ja – helt digitalt via lagerbolag",
+          "unit": "",
+          "dynamic": false
+        },
+        "bookkeeping_integration": {
+          "label": "Bokföringsintegration",
+          "value": "Ja – Fortnox, Visma, Björn Lundén, Spiris, Hogia, 24SevenOffice",
+          "unit": "",
+          "dynamic": false
+        },
+        "financial_overview": {
+          "label": "Finansiell översikt (Oxceed)",
+          "value": "Ja – P&L och nyckeltal i Business Arena, utan merkostnad",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "factoring": {
+          "label": "Fakturafinansiering/factoring",
+          "value": "Ja – fakturabelåning och fakturaköp via Waya",
+          "unit": "",
+          "dynamic": false
+        },
+        "leasing": {
+          "label": "Leasing & avbetalning",
+          "value": "Ja – bil, maskiner, leverantörsoberoende",
+          "unit": "",
+          "dynamic": false
+        },
+        "trade_finance": {
+          "label": "Trade Finance",
+          "value": "Ja – export/importremburs, bankgarantier",
+          "unit": "",
+          "dynamic": false
+        },
+        "pension": {
+          "label": "Tjänstepension",
+          "value": "Ja – fondförsäkring, trad, depå, robotrådgivare SEB Bot Advisor",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "seb.se/foretag/erbjudande-och-bli-foretagskund",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571512+00:00",
+      "checksum": "22a35a31ad2ce6df2ccf1c5adc9a3ee9"
+    },
+    "nordea": {
+      "id": "nordea",
+      "name": "Nordea",
+      "type": "Storbank",
+      "color": "#72243E",
+      "bg": "#FBEAF0",
+      "urls": {
+        "foretagskonto": "https://www.nordea.se/foretag/produkter/betala/foretagskonto.html",
+        "digital": "https://www.nordea.se/foretag/produkter/mobilbank-internetbank/nordea-business.html"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "108 (1 300 kr/år)",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "2 500",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Ja – helt digitalt",
+          "unit": "",
+          "dynamic": false
+        },
+        "platform": {
+          "label": "Digital plattform",
+          "value": "Nordea Business – Global Finance Award 2025, bästa SME-plattform i Västeuropa",
+          "unit": "",
+          "dynamic": false
+        },
+        "cashflow_tool": {
+          "label": "Kassaflödesprognos",
+          "value": "Ja – 'Få koll' med branschjämförelse och beslutssimulering",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja – eget Swish-verktyg",
+          "unit": "",
+          "dynamic": false
+        },
+        "trade_finance": {
+          "label": "Trade Finance",
+          "value": "Ja – Trade Finance Global, onlinesystem",
+          "unit": "",
+          "dynamic": false
+        },
+        "fx_tool": {
+          "label": "Valuta/hedging",
+          "value": "Ja – e-Markets handlarplattform",
+          "unit": "",
+          "dynamic": false
+        },
+        "pension": {
+          "label": "Tjänstepension",
+          "value": "Ja – Nordea Node-portal",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "nordea.se/foretag/produkter/betala/foretagskonto.html",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571546+00:00",
+      "checksum": "4ee90f20d8d4f9083bdd8c34e6742e74"
+    },
+    "danske": {
+      "id": "danske",
+      "name": "Danske Bank",
+      "type": "Storbank",
+      "color": "#3C3489",
+      "bg": "#EEEDFE",
+      "urls": {
+        "foretag": "https://danskebank.se/foretag",
+        "district": "https://danskebank.se/foretag/digitala-tjanster/onlinetjanster/district"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "Varierar per paket – kontakta banken",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "2 500",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Ja – Startpaketet online",
+          "unit": "",
+          "dynamic": false
+        },
+        "platform": {
+          "label": "Digital plattform",
+          "value": "District – modulbaserad, anpassningsbar, gränsöverskridande Norden",
+          "unit": "",
+          "dynamic": false
+        },
+        "fx_tool": {
+          "label": "Valuta/hedging",
+          "value": "Ja – DanskeFX OneClick, egna konton i Europa/USA/Asien",
+          "unit": "",
+          "dynamic": false
+        },
+        "trade_finance": {
+          "label": "Trade Finance",
+          "value": "Ja – utsedd till bäst i Norden av Kantar Prospera 2025",
+          "unit": "",
+          "dynamic": false
+        },
+        "nordic_presence": {
+          "label": "Nordisk närvaro",
+          "value": "Sverige, DK, NO, FI, UK, Polen + >1 300 korrespondentbanker",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja – via District",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja + specialistteam",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "danskebank.se/foretag",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571573+00:00",
+      "checksum": "2ce69321743b8b10c685328092b37c91"
+    },
+    "lansforsakringar": {
+      "id": "lansforsakringar",
+      "name": "Länsförsäkringar",
+      "type": "Nischbank",
+      "color": "#085041",
+      "bg": "#E1F5EE",
+      "urls": {
+        "bli_kund": "https://www.lansforsakringar.se/foretag/bank/bli-bankkund/"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "100 (1 200 kr/år)",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "Kontakta lokalt länsbolag",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Delvis – via telefon eller chatt",
+          "unit": "",
+          "dynamic": false
+        },
+        "included_payments": {
+          "label": "Ingående betalningar",
+          "value": "500 st/år (därefter 1,80 kr/st)",
+          "unit": "st",
+          "dynamic": false
+        },
+        "combined_offering": {
+          "label": "Bank + försäkring samlat",
+          "value": "Ja – unik kombination via Mina sidor",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja – tilläggstjänst",
+          "unit": "",
+          "dynamic": false
+        },
+        "credit_card": {
+          "label": "Kreditkort Företag",
+          "value": "Ja – upp till 50 dagars räntefri kredit",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja – via lokalt länsbolag",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "lansforsakringar.se/foretag/bank/bli-bankkund",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571600+00:00",
+      "checksum": "f63e94551c998d3b00be4966c6899dba"
+    },
+    "lunar": {
+      "id": "lunar",
+      "name": "Lunar",
+      "type": "Digital",
+      "color": "#444441",
+      "bg": "#F1EFE8",
+      "urls": {
+        "foretag": "https://www.lunar.se/foretag",
+        "priser": "https://www.lunar.se/foretag/priser"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "Från 0 (Simple gratis, Essential/Limitless betalt)",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "0",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Ja – 100% digitalt, svar inom 3 arbetsdagar",
+          "unit": "",
+          "dynamic": false
+        },
+        "automatic_vat": {
+          "label": "Automatiskt momskonto",
+          "value": "Ja – avsätter vald % av varje inbetalning automatiskt",
+          "unit": "",
+          "dynamic": false
+        },
+        "bookkeeping_integration": {
+          "label": "Bokföringsintegration",
+          "value": "Ja – Fortnox, Bokio, Bolageriet, SpeedLedger (kostnadsfritt i alla paket)",
+          "unit": "",
+          "dynamic": false
+        },
+        "expense_categorization": {
+          "label": "Automatisk utgiftskategorisering",
+          "value": "Ja – kortinköp kategoriseras automatiskt i appen",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish": {
+          "label": "Swish Företag",
+          "value": "Ja – fast månadskostnad",
+          "unit": "",
+          "dynamic": false
+        },
+        "loan": {
+          "label": "Företagslån",
+          "value": "Via partners Qred/Froda – upp till 5 Mkr",
+          "unit": "",
+          "dynamic": false
+        },
+        "international": {
+          "label": "Utlandsbetalningar",
+          "value": "Begränsat – kortanvändning utomlands fungerar",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Nej – supportteam, ej personlig rådgivare",
+          "unit": "",
+          "dynamic": false
+        },
+        "trustpilot": {
+          "label": "Trustpilot-betyg",
+          "value": "4,6 av 5 (8 350 omdömen)",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "lunar.se/foretag/priser",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571623+00:00",
+      "checksum": "362492234de67fe4fd2fc4040180f9e7"
+    },
+    "svea": {
+      "id": "svea",
+      "name": "Svea Bank",
+      "type": "Digital",
+      "color": "#712B13",
+      "bg": "#FAECE7",
+      "urls": {
+        "foretagspaket": "https://www.svea.com/sv-se/foretag/foretagsbanken/foretagspaket",
+        "prislista": "https://www.svea.com/globalassets/sweden/foretag/foretagsbanken/prislista-foretag-2025-11-04.pdf"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "149 (Bas-paket, gäller från nov 2025)",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "0",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Ja – helt digitalt, ca 14 dagar",
+          "unit": "",
+          "dynamic": false
+        },
+        "credit_limit": {
+          "label": "Kontokredit (Växa-paket)",
+          "value": "Upp till 1 000 000 digitalt, högre vid manuell bedömning",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "factoring": {
+          "label": "Fakturaköp/factoring",
+          "value": "Ja – fakturaköp och factoring, inkl. exportfinansiering",
+          "unit": "",
+          "dynamic": false
+        },
+        "leasing": {
+          "label": "Leasing",
+          "value": "Ja – objekts- och fordonsfinansiering",
+          "unit": "",
+          "dynamic": false
+        },
+        "ecommerce": {
+          "label": "E-handels­betallösning",
+          "value": "Ja – Instore Pay, Scan & Pay, e-handel",
+          "unit": "",
+          "dynamic": false
+        },
+        "bookkeeping_integration": {
+          "label": "Bokföringsintegration",
+          "value": "Ja – Fortnox (ingår)",
+          "unit": "",
+          "dynamic": false
+        },
+        "international": {
+          "label": "Utlandsbetalningar",
+          "value": "SEPA-länder + EES + Schweiz/UK – läggs till som produkt i internetbanken",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ej fysiskt kontor – möte kan bokas",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "svea.com/globalassets/prislista-foretag-2025-11-04.pdf",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "nov 2025 (officiell prislista)",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571652+00:00",
+      "checksum": "9e72a1afee95b4c0d79fcbda50a7fb96"
+    },
+    "swedbank": {
+      "id": "swedbank",
+      "name": "Swedbank",
+      "type": "Storbank",
+      "color": "#633806",
+      "bg": "#FAEEDA",
+      "urls": {
+        "foretagspaket": "https://www.swedbank.se/foretag/bli-kund/foretagspaket.html"
+      },
+      "fields": {
+        "monthly_fee": {
+          "label": "Månadsavgift",
+          "value": "Ej publik – kontakta Swedbank",
+          "unit": "kr/mån",
+          "dynamic": false
+        },
+        "setup_fee": {
+          "label": "Startavgift",
+          "value": "Ej publik",
+          "unit": "kr",
+          "dynamic": false
+        },
+        "onboarding_digital": {
+          "label": "Digital onboarding",
+          "value": "Delvis – kontakta närmaste kontor eller ring 0771-33 44 33",
+          "unit": "",
+          "dynamic": false
+        },
+        "swish_fee": {
+          "label": "Swish Företag – avgift",
+          "value": "1,50 (ord. 2,00 kr)",
+          "unit": "kr/transaktion",
+          "dynamic": false
+        },
+        "insurance_discount": {
+          "label": "Försäkringsrabatt",
+          "value": "10% på Företagsförsäkring, år 1",
+          "unit": "",
+          "dynamic": false
+        },
+        "trade_finance": {
+          "label": "Trade Finance",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "leasing": {
+          "label": "Leasing & avbetalning",
+          "value": "Ja – inkl. grön billeasing",
+          "unit": "",
+          "dynamic": false
+        },
+        "dedicated_advisor": {
+          "label": "Personlig rådgivare",
+          "value": "Ja",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_url": {
+          "label": "Källa",
+          "value": "swedbank.se/foretag/bli-kund/foretagspaket.html",
+          "unit": "",
+          "dynamic": false
+        },
+        "source_verified": {
+          "label": "Verifierad",
+          "value": "maj 2025 (avgift ej publik)",
+          "unit": "",
+          "dynamic": false
+        }
+      },
+      "scraped_at": "2026-05-04T14:09:16.571677+00:00",
+      "checksum": "671d04939ffe3fcfe94676b6eb5123ea"
+    }
+  }
+}
